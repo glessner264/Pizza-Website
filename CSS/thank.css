@@ -1,0 +1,44 @@
+/* CSS Document */
+
+html{background-color:#000000; background-image:url(../images/background.jpg);}
+body{background-color:#fff080; margin:0 auto; width:635px; /*overflow:hidden;*/ padding:10px; font-family:Arial, Helvetica, sans-serif;opacity:0.7;border-radius:10px;}
+
+#interface_column {width:600px; border:solid #666 1px; float:left; padding:15px; margin: 0 10px 10px 0;  background-image:url(../images/dark_orange_background.jpg);-webkit-box-shadow: 1px 1px 1px 1px rgba(, , , );
+box-shadow: 1px 1px 1px 1px rgba(, , , );border-radius:10px;}
+
+#content_column{ width:600px;border:solid #666 1px; float:left; padding:15px; -webkit-box-shadow: 1px 1px 1px 1px rgba(, , , );
+box-shadow: 1px 1px 1px 1px rgba(, , , );border-radius:10px;  background-image:url(../images/orange.jpg);}
+
+#cart {width:200px; border: solid #000 2px; margin-left:740px; margin-top:170px; text-align:center; height:510px;}
+
+#footer{width:600px; border:solid #666 1px;padding:15px; clear:both; position:relative; bottom:-5px;-webkit-box-shadow: 1px 1px 1px 1px rgba(, , , );
+box-shadow: 1px 1px 1px 1px rgba(, , , );border-radius:10px;}
+
+.content_img{width:320px; height:200px; background-color:#999; display:block; }
+
+
+
+#section2, #section3, #section4, #section5, #section6{display:none;}
+
+li{border:3px solid #000; background-color:#9FC; 
+                display: inline-block;
+                height: 25px;
+                list-style-type: none;
+                text-align: center;
+                width: 75px; font-size:14px;
+				text-decoration:none;
+}
+
+ul{ text-decoration:none; list-style:none;}
+
+p{font-size:24px;}
+
+h2{font-size:36px; text-align:center;color: black;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;}
+
+a{text-decoration:none; }/*border: solid 2px black; border-radius:10px; background-color:#FFFF00; width:50px; height:50px; padding:5px; text-align:center;
+
+a:hover{color:#FF0000; background-color:#0F6; width:40px; height:40px;}
+
+*/
+h1{color:#F00; float:right;text-shadow: -1px 0 black, 0 1px black, 1px 0 yellow, 0 -1px yellow;}

@@ -1,0 +1,458 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wild Flames Pizza and Wings</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<script src="js/script.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/cookie.js"></script>
+<script src="lightbox/js/jquery-1.7.2.min.js"></script>
+<script src="lightbox/js/jquery.cycle.lite.js"></script>
+<script>
+	$(function() {
+		$('#slideshow1').cycle({timeout:4000});
+	});
+	</script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div  id="interface_column">
+
+	<h1 id="bud">Wild Flames Pizza & Wings</h1>
+    <ul id="nav"><img src="images/logo2.png">
+      <li id="home"><a href="#" onClick="show_only_1()">Home</a></li>
+    
+      <a href="#" onClick="show_only_2()"><li id="pizza">Pizza</li></a>
+      
+      <li id="wings"><a href="#" onClick="show_only_3()">Wings</a></li>
+      
+      <li id="drinks"><a href="#" onClick="show_only_4()">Drinks</a></li>
+      
+      <li id="sides"><a href="#" onClick="show_only_5()">Sides</a></li>
+      
+      <li id="check"><a href="#" onClick="show_only_6()">Checkout</a></li>
+    </ul>
+
+
+
+</div> <!--CLOSES interface_column-->
+
+<div  id="content_column">
+	<div id="section1">
+    
+ 
+<h1 id="welcome">Welcome to Wild Flames Pizza and Wings website, place your order now!</h1>     
+    
+     <a href="#" onClick="show_only_2()"id="order">Order Now!</a>
+
+    <h3 id="about">About Wild Flames Pizzza & Wings</h3>
+        <article id="slideshow1">
+  <img src="images/78056711.jpg" width="200" height="200"/>
+  <img src="images/86511079.jpg" width="200" height="200"/>
+  <img src="images/86495617.jpg" width="200" height="200"/>
+  <img src="images/86505320.jpg" width="200" height="200"/>
+  </article>
+    <p id="paragraph">Welcome everyone to Wild Flames Pizza & Wings.  We have one pizza shop and it is located in Oakdale Pennsylvania.    Our goal here at Wild Flames is to provide a simple way for you to order pizza & wings online and get your order delivered to you in a timely manner.   Click on “Order Now” to start your order, then click the next button at the bottom of the page or click the section you want in the navigation to continue your order.  For each of the 4 sections (pizza, wings, drinks and sides) there are 4 choices, so you have a variety to choose from.  The price, description and the quantity of each item is listed at the bottom of each page.  
+    </p>
+    <h3>History</h3>
+    <p id="padding">Wild Flames Pizza & Wings is a family run business located in Oakdale PA. Here at Wild Flames we use the old style stone fired pizza to make the pizza the best that we can. Currently there is only one Wild Flames pizza shop, in the future we are planning on opening more here in the area of Pittsburgh. As a business we proved deliveries to all are customers within a 20 mile radius of our store.  In 1980 a man named Wade Glessner wanted to start his own business, so he decided to start a family run pizza shop.  Over the years Wild Flames has gotten more and more publicity in the Pittsburgh area and is currently one of the local’s favorite places to get pizza.  Wild Flames is currently the last pizza shop in the Pittsburgh area to use a stone fired oven to make their pizzas.  Customers say that the stone fired oven brings out the best taste possible in the pizza.  We hope that over the years Wild Flames can become an even bigger business so we can build more pizza and wings shops in the Pittsburgh area.  </p>
+
+
+  </div>  <!--CLOSES content_column-->
+
+    
+    	<div id="section2">
+        		
+           <h3>Please choose one of the following pizzas that you would like with your order if any (description and price is listed below).  </h3>
+    <ol>
+  
+   <li id="pizza1"> 
+					
+   </li>
+   
+   <li id="pizza2">
+  
+
+   </li>
+   </ol>
+   <a id="button1">Cheese</a> 
+   
+    <a id="button2">Pepperoni</a>
+   <ol>
+   
+   <li id="pizza3">
+    
+ 
+   </li>
+   <li id="pizza4">       
+  
+  
+   </li>
+   </ol>
+<a id="button3">Veggie </a>
+ <a id="button4">Meat Lovers</a>
+
+
+    <h4>Cheese Pizza - Large 12 cut pizza</h4>
+    <h5>Price = $10</h5>
+    <p>Your favorite crispy crust with a blend of 5 different cheeses for the ultimate cheese pizza.
+    </p>
+      <h4>Pepperroni Pizza - Large 12 cut pizza</h4>
+      <h5>Price = $11.75</h5>
+    <p>For our awesome Pepperoni pizza we layer pepperonis all over the crust, so your sure to get a pepperoni in every bite!    
+    </p>
+      <h4>Veggie Pizza - Large 12 cut pizza </h4>
+      <h5>Price = $12.75</h5>
+    <p>Our veggie pizza is packed with 6 veggies, including mushrooms, tomatoes, onions, black olives, green peppers and jalapeno peppers.  
+
+
+    </p>
+          <h4>Meat Lovers - Large 12 cut pizza </h4>
+          <h5>Price = $13.75</h5>
+    <p>Meat Lovers pizza is loaded with sausage, bacon and ham.
+    </p>
+    <ul>
+
+      
+      <li id="wings"><a href="#" onClick="show_only_3()">Next</a></li>
+      
+
+    </ul>
+
+  </div>  <!--CLOSES content_column-->
+
+
+
+
+   	<div id="section3">
+    		
+           <h3>Please choose one of the following wings that you would like with your order if any (description and price is listed below).   </h3>
+    
+    <ol>
+   <li id="wings1">
+   </li>
+   <li id="wings2">
+     
+   </li>
+   </ol>
+    <a id="buttonW1">Honey Garlic</a>
+    <a id="buttonW2">Garlic Parm </a>
+   <ol>
+   
+   <li id="wings3">
+   </li>
+   
+   <li id="wings4">
+   </li>
+   </ol>
+   <a id="buttonW3">Honey BBQ</a>
+ <a id="buttonW4">Buffalo ranch </a>
+
+<h4>Honey Garlic - Side of 8 Wings</h4>
+<h5>Price = $6.75</h5>
+   
+    <p>A sweet honey taste mixed with garlic.
+    </p>
+    
+    
+    <h4>Garlic Parmesan - Side of 8 Wings</h4>
+    <h5>Price = $6.75</h5>
+    <p>A crispy cheesy flavor mixed with garlic.
+    </p>
+    
+    <h4>Honey BBQ - Side of 8 Wings</h4>
+    <h5>Price = $6.75</h5>
+    <p>Our honey BBQ flavor is sweet and tangy.
+    </p>
+    
+     <h4>Buffalo Ranch - Side of 8 Wings</h4>
+     <h5>Price = $6.75</h5>
+    <p>A hot and tangy flavor mixed in ranch dressing.
+    </p>
+
+    <ul>
+
+      
+      <li id="drinks"><a href="#" onClick="show_only_4()">Drinks</a></li>
+
+    </ul>
+
+  </div>  <!--CLOSES content_column-->
+  
+  
+     	<div id="section4">
+        
+           <h3>Please choose one of the following drinks that you would like with your order if any (description and price is listed below).  </h3>
+    
+    <ol>
+   <li id="drinks1">
+   </li>
+   <li id="drinks2">
+     
+   </li>
+   </ol>
+    <a id="buttonD1">Cola</a>
+    <a id="buttonD2">Rootbeer</a>
+   <ol>
+   
+   <li id="drinks3">
+   </li>
+   
+   <li id="drinks4">
+   </li>
+   </ol>
+   <a id="buttonD3">Ginger Ale</a>
+ <a id="buttonD4">Orange Soda</a>
+    
+<h4>Cola - two 12 fluid ounce cans</h4>
+<h5>Price = $1</h5>
+    <p>A pure sugary cola taste.
+    </p>
+    <h4>Root Beer - two 12 fluid ounce cans</h4>
+    <h5>Price = $1</h5>
+    <p>Carbonated sweetened Root Beer.     </p>
+    <h4>Ginger Ale - two 12 fluid ounce cans</h4>
+    <h5>Price = $1</h5>
+    <p>Carbonated soft drink flavored with ginger in a Golden-Style.    </p>
+    
+    <h4>Orange Soda - two 12 fluid ounce cans</h4>
+    <h5>Price = $1</h5>
+    <p>A tasty carbonated orange drink.   </p>
+    
+    <ul>
+
+      
+      <li id="sides"><a href="#" onClick="show_only_5()">Sides</a></li>
+      
+ 
+    </ul>
+  </div>  <!--CLOSES content_column-->
+
+
+  	<div id="section5">
+    		
+   
+        <h3>Please choose one of the following sides that you would like with your order if any (description and price is listed below).   </h3>
+     <ol>
+   <li id="sides1">
+   </li>
+   <li id="sides2">
+     
+   </li>
+   </ol>
+    <a id="buttonS1">Macaroni & Cheese</a>
+    
+    <a id="buttonS2">BreadSticks</a>
+   <ol>
+   
+   <li id="sides3">
+   </li>
+   
+   <li id="sides4">
+   </li>
+   </ol>
+   <a id="buttonS3">Mozzarella Sticks </a>
+ <a id="buttonS4">Pepperoni Rolls</a>
+    
+    <h4>Macaroni & Cheese - 15 ounce cup</h4>
+    <h5>Price = $3</h5>
+    <p>Are Macaroni and Cheese isn’t your normal, our homemade Mac and cheese has 5 unique cheesy flavors. 
+    </p>
+      <h4>BreadSticks - 8 BreadSticks and a cup of Marinara sauce</h4>
+      <h5>Price = $5</h5>
+    <p>These BreadSticks are soft on the inside and have a nice crispy taste on the outside.  On the top of the Breadsticks is some sprinkled parmesan cheese.  
+    </p>
+      <h4>Mozzarella Sticks - 6 Mozzarella sticks and a cup of Marinara sauce</h4>
+      <h5>Price = $5.75</h5>
+    <p>Mozzarella sticks are children’s favorite side dish.  These Mozzarella sticks are deep fried and are seasoned with some sprinkled oregano.  
+    </p>
+          <h4>Pepperoni Rolls - 4 rolls </h4>
+          <h5>Price = $3.50</h5>
+    <p>Juicy Pepperonis rolled in pizza dough with cheese drizzled over the top. 
+    </p>
+    <ul>
+
+      
+      <li id="check"><a href="#" onClick="show_only_6()">Checkout</a></li>
+    </ul>
+
+
+  </div>  <!--CLOSES content_column-->
+  
+  
+  
+    	<div id="section6">
+    <h2>Please complete the following to receive your order.</h2>
+      <article id="note">
+  <h1>* Note *</h1>
+  <p>Since Wild Flames only has one location which is located in Oakdale PA we only deliver within a 20 mile radius of our pizza shop.
+  </p>
+  </article>
+    
+    <form>
+ 
+  
+    
+<label for="fname">First name:</label>
+<input type="text" name="user_first_name" id="user_first_name1" required>
+</p>
+<p>
+<label for="lname">Last name:</label>
+<input type="text" name="user_last_name" id="user_first_name1" required>
+</p>
+<p>
+<label for="address">Address:     </label>
+<input type="text" name="address" id="address" required>
+</p>
+<p>
+
+<p>
+<label for="city">City </label>
+<input type="text" name="city" id="city" required>
+</p>
+
+
+<p><label for="state">State:</label></p>
+<select name="user_state" id="state" >
+  <option value=""></option>
+  <option value="Pennsylvania">Pennsylvania</option>
+
+</select>  
+
+  
+
+<p>
+<label for="zip code">Zip Code:</label>
+<input type="text" name="zip code" id="user_first_name1" required size="9" maxlength="9" value="15071">
+</p>
+
+<p>
+<label for="phone">Telephone number:</label>
+<input type="text" name="phone" id="user_first_name1" required size="3" maxlength="3" required>-
+<input type="text" name="phone" id="user_first_name1" required size="3" maxlength="3" required>-
+<input type="text" name="phone" id="user_first_name1" required size="4" maxlength="4" required>
+</p>
+
+
+
+<p><label for="cardType">Credit Card Type:</label></p>
+<select name="text" id="cardType" >
+  <option value=""></option>
+  <option value="visa">Visa</option>
+  <option value="AmericanExpress">American Express</option>
+   <option value="Discover">Discover</option>
+    <option value="MasterCard">MasterCard</option>
+    </select>  
+
+<p>
+<label for="cardNumber">Credit Card Number   </label>
+<input type="text" name="cardNumber" id="cardNumber" required size="4" maxlength="4" required>-
+<input type="text" name="cardNumber" id="cardNumber" required size="4" maxlength="4" required>-
+<input type="text" name="cardNumber" id="cardNumber" required size="4" maxlength="4" required>-
+<input type="text" name="cardNumber" id="cardNumber" required size="4" maxlength="4" required>
+</p>
+<p><label for="Expires">Expires:</label></p>
+<select name="Expires" id="Expires" >
+  <option value="selectOne">Select One</option>
+  <option value="01">01</option>
+  <option value="02">02</option>
+  <option value="03">03</option>
+  <option value="04">04</option>
+  <option value="05">05</option>
+  <option value="06">06</option>
+  <option value="07">07</option>
+  <option value="08">08</option>
+  <option value="09">09</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+
+</select>  
+
+<label for="Expires"></label>
+<select name="Expires" id="Expires" >
+  <option value="selectOne">Select One</option>
+  <option value="2012">2012</option>
+  <option value="2013">2013</option>
+  <option value="2014">2014</option>
+  <option value="2015">2015</option>
+  <option value="2016">2016</option>
+  <option value="2017">2017</option>
+   <option value="2018">2018</option>
+    <option value="2019">2019</option>
+ 
+
+</select>  
+
+<p>
+<label for="IDNumber">ID Number:</label>
+<input type="text" name="IDNumber" id="IDNumber" required size="3" maxlength="3" required>
+</p>
+  </form>
+<a href="thankyou.html" >
+ <input type="submit" name="submit" id="submit1" value="Submit Order"  ></a>
+
+
+
+
+
+
+
+
+
+
+  </div>  <!--CLOSES content_column-->
+
+
+
+</div> <!--CLOSES content_column-->
+
+
+
+
+<aside id="cart">
+<h2> Cart</h2>
+
+ 
+
+
+<h2>Pizza</h2> 
+  <section id="cart_pizza">No choice yet</section>
+    <p id="cart_pizza_type">-</p>
+    <p id="cart_pizza_price">$</p>
+ 
+<h2>Wings</h2>
+ <section id="cart_wing">No choice yet</section>
+    <p id="cart_wing_type">-</p>
+    <p id="cart_wing_price">$</p>
+<h2>Drinks</h2>
+ <section id="cart_drink">No choice yet</section>
+    <p id="cart_drink_type">-</p>
+    <p id="cart_drink_price">$</p>
+<h2>Sides</h2>
+ <section id="cart_side">No choice yet</section>
+    <p id="cart_side_type">-</p>
+    <p id="cart_side_price">$</p>
+
+<section id="cart_total">Total: $0</section>
+</aside> <!-- CLOSES THE CART aside-->
+
+
+
+
+
+
+
+
+<div id="footer">
+&copy; Nate Glessner
+<a href="credits.html" id="credits">Credits Page</a>
+</div><!--CLOSES footer_column-->
+
+
+
+</body>
+</html>
