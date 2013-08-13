@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wild Flames Pizza and Wings</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<script src="js/script.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/cookie.js"></script>
+<script src="lightbox/js/jquery-1.7.2.min.js"></script>
+<script src="lightbox/js/jquery.cycle.lite.js"></script>
+<script>
+	$(function() {
+		$('#slideshow1').cycle({timeout:4000});
+	});
+	</script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+
+    
+<div  id="interface_column">   
+
+<img src="images/logo2.png" id="nav"> 
+<ol id="back">
+<a href="index.html"><li id="new">Home</li></a>
+<a href="about.html"><li id="new">About</li></a>
+<a href="location.html"><li id="new">Location</li></a>
+
+
+</ol>
+</div> <!--CLOSES interface_column-->
+
+<div  id="content_column">
+	<div id="section1">
+    
+ 
+<h1 id="welcome">History of Wild Flames</h1>     
+    
+   
+
+    
+ 
+   
+    <img src="images/guy_holding_pizza.jpg" alt="Pizza Man" id="picture"/>
+    <p id="padding2">Wild Flames Pizza & Wings is a family run business located in Oakdale PA. At Wild Flames we use the old style stone fired pizza method to make the pizza the best that we can. We provide deliveries within a 20 mile radius of our store.  In 1980 a man named Wade wanted to start his own business, so he decided to start a family run pizza shop.  Over the years Wild Flames has gotten more and more publicity in the Pittsburgh area and is currently one of the locals favorite places to get pizza.  Wild Flames is the last pizza shop in the Pittsburgh area to use a stone fired oven to make there pizzas.  Customers say that the stone fired oven brings out the best taste possible in the pizza.  We hope that over the years Wild Flames can become an even bigger business so we can build more pizza and wings shops in the Pittsburgh area.  </p>
+    
+
+
+<br />
+<br />
+
+<br />
+<br />
+<h1 id="got">Contact Us</h1>
+<p id="over">Please fill out this short form if you have any questions or comments.</p>
+
+
+<form action="index.html"   onSubmit="return checkForm2();">
+
+<p id="form">
+<label for="fname">Name:</label></p>
+<input type="text" name="user_first_name" id="user_first_name27"><span id="one_error"></span>
+
+
+<p id="form">
+<label for="phone">Telephone number:</label></p>
+<input type="text" name="phone" id="user_first_name2" size="3"  maxlength="3"> - 
+<input type="text" name="phone" id="user_first_name2" size="3" maxlength="3"> -  
+<input type="text" name="phone" id="user_first_name2" size="4" maxlength="4">  <span id="two_error"></span>
+</p>
+
+
+<p id="form"><label for="email">Email:</label></p>
+<input type="text" name="email" id="user_email"><span id="three_error"></span>
+
+<p id="form"><label>Comments</label></p>
+<textarea name="user_comments" id="user_comments2"></textarea><span id="four_error"></span>
+<br />
+ <input type="submit" name="submit" id="submit1"  value="Submit" />
+
+</form>
+
+  </div>  <!--CLOSES content_column-->
+
+</div>
+
+
+<div id="footer">
+&copy; Nate Glessner
+<a href="credits.html" id="credits">Credits Page</a>
+</div><!--CLOSES footer_column-->
+
+
+
+</body>
+</html>
